@@ -130,7 +130,7 @@ public class Anagrams extends JFrame {
         mainPanel.setMinimumSize(new java.awt.Dimension(297, 200));
         mainPanel.setLayout(new java.awt.GridBagLayout());
 
-        scrambledLabel.setText("Scrambled Word:");
+        scrambledLabel.setText("‚²‚¿‚á‚Ü‚ºŒ¾—t:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -148,9 +148,9 @@ public class Anagrams extends JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 12, 0);
         mainPanel.add(scrambledWord, gridBagConstraints);
 
-        guessLabel.setDisplayedMnemonic('Y');
+        guessLabel.setDisplayedMnemonic('‚ ');
         guessLabel.setLabelFor(guessedWord);
-        guessLabel.setText("Your Guess:");
+        guessLabel.setText("‚ ‚È‚½‚Ì—\‘z:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
@@ -206,7 +206,7 @@ public class Anagrams extends JFrame {
         gridBagConstraints.weighty = 1.0;
         mainPanel.add(buttonsPanel, gridBagConstraints);
 
-        levelLabel.setText("Level:");
+        levelLabel.setText("ƒŒƒxƒ‹:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
